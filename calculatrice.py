@@ -7,3 +7,8 @@ class Calculatrice:
         resultat = self.nombre1 + self.nombre2
         print(f'{self.nombre1} + {self.nombre2} = {resultat}')
         return resultat
+    
+    def division(self):
+        resultat = self.nombre1 / self.nombre2
+        print(f'{self.nombre1} / {self.nombre2} = {resultat}')
+        return resultat
