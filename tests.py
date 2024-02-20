@@ -14,7 +14,7 @@ class TestCalculatrice(unittest.TestCase): # TestXXXX
         self.assertEqual(calc1.division(), 2)
 
         calc2 = Calculatrice(10, 0)
-        self.assertTrue(calc2.addition() == "Erreur")
+        self.assertTrue(calc2.division() == "Erreur")
 
 if __name__ == '__main__':
     unittest.main()

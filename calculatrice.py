@@ -9,6 +9,8 @@ class Calculatrice:
         return resultat
     
     def division(self):
+        if self.nombre2 == 0:
+            return "Erreur"
         resultat = self.nombre1 / self.nombre2
         print(f'{self.nombre1} / {self.nombre2} = {resultat}')
         return resultat
